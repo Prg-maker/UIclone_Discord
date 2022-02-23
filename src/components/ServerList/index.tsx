@@ -1,25 +1,32 @@
 
 import { ServerButton } from '../ServerButton'
 
-import { Cotnainer, Separate } from './styles'
+import { Container, Separate } from './styles'
 
 
 
 export function ServerList() {
   return (
-    <Cotnainer>
+    <Container>
       <ServerButton isHome />
 
       <Separate />
 
-      <ServerButton isNotifications />
       <ServerButton />
-      <ServerButton isNotifications />
+      <ServerButton />
+      <ServerButton isNotifications={true} />
       <ServerButton />
       <ServerButton />
       <ServerButton mentions={3} />
       <ServerButton />
+      <ServerButton mentions={100} />
+      <ServerButton mentions={1} isNotifications={true} />
       <ServerButton mentions={1} />
-    </Cotnainer>
+      <ServerButton isNotifications={true} />
+      <ServerButton mentions={1} />
+      <ServerButton mentions={1} />
+      <ServerButton mentions={1} />
+      <ServerButton isNotifications={true} />
+    </Container>
   )
 }

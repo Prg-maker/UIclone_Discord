@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Cotnainer = styled.div`
+export const Container = styled.div`
   grid-area: SL;
   display: flex;
   flex-direction: column;
