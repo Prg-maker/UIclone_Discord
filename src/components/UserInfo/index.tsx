@@ -18,7 +18,7 @@ export function UserInfo() {
         <Avatar />
         <UserData >
           <strong>Daniel Fernandes</strong>
-          <span>#4495 </span>
+          <span>#4495   </span>
         </UserData>
 
       </Profile>
